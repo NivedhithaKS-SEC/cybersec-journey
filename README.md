@@ -29,8 +29,8 @@ My cybersecurity learning journey — notes, scripts, writeups
 - GitHub: https://github.com/NivedhithaKS-SEC/cybersec-journey
 
 ## 📊 Progress
-- Days Completed: 7/60
-- TryHackMe Points: 408
+- Days Completed: 8/60
+- TryHackMe Points: 480
 - Tools: Nmap, Metasploit, Netcat, Python, Burp Suite
 
 ## 📁 Day Index
