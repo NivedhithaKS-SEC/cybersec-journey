@@ -103,7 +103,7 @@ Cookie: security=low
 
 ### Screenshot — SQL Injection Executed via Repeater
 
-![Burp Repeater SQL Injection](burp-sqli-repeater.png)
+![Burp Repeater SQL Injection](burp-sqli-repeater1.png)
 
 ### Result — All 5 Users Extracted
 
