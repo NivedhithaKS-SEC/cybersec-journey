@@ -19,6 +19,22 @@ My cybersecurity learning journey — notes, scripts, writeups
 - AI/ML Security (LLM attacks, prompt injection)
 - Python for Security Automation
 
+## 🛠️ Security Tools
+
+### 🔍 Subdomain Enumerator
+Discovers active subdomains of a target domain using a wordlist.
+- Python 3 | requests library
+- Tested on tryhackme.com — found 6 active subdomains
+- [View Code →](Day11-python/subdomain_enum.py)
+
+### 🔌 Port Scanner  
+Scans a target for open TCP ports and identifies services.
+- Python 3 | socket library  
+- Tested on scanme.nmap.org live target
+- [View Code →](day06-python/port_scanner_v1.py)
+
+*(More tools being added daily — check back!)*
+
 ## My Projects
 *(Projects will be added here as I build them)*
 
