@@ -54,9 +54,11 @@ My cybersecurity learning journey — notes, scripts, writeups
 - GitHub: https://github.com/NivedhithaKS-SEC/cybersec-journey
 
 ## 📊 Progress
-- Days Completed: 8/60
-- TryHackMe Points: 480
-- Tools: Nmap, Metasploit, Netcat, Python, Burp Suite
+- Days Completed: 11/60
+- TryHackMe Points: 480+
+- Portfolio Tools Built: 2
+- GitHub Commits: 35+
+- Tools: Nmap, Metasploit, Burp Suite, DVWA, Wireshark, Python
 
 ## 📁 Day Index
 | Day | Topic | Status |
@@ -68,3 +70,7 @@ My cybersecurity learning journey — notes, scripts, writeups
 | 5 | Metasploit + Exploitation | ✅ |
 | 6 | Post-Exploitation + Python | ✅ |
 | 7 | Review + Blog Post | ✅ |
+| 8  | Vulnerability Scanning + Nessus | ✅ |
+| 9  | Web App Security + SQL Injection | ✅ |
+| 10 | Burp Suite + HTTP Interception | ✅ |
+| 11 | Python Security Tool — Subdomain Enumerator | ✅ |
