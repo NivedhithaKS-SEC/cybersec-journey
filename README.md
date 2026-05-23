@@ -28,7 +28,7 @@
 
 | Artifact | Description | Link |
 |---|---|---|
-| **Incident Response Playbook** | 7-page professional IR playbook — phishing, ransomware, insider threat scenarios with MITRE ATT&CK mapping, IOC extraction, escalation matrix | `SOC/IR-Playbook.pdf` |
+| **Incident Response Playbook** | 7-page professional IR playbook — phishing, ransomware, insider threat scenarios with MITRE ATT&CK mapping, IOC extraction, escalation matrix | [IR-Playbook.pdf](./IR_Playbook_NivedhithaKS.pdf) |
 | **Email Security Watchdog v3** | Python Gmail threat detection tool — OAuth2, 15-check phishing detection engine, automated response | [email-header-analyzer](https://github.com/NivedhithaKS-SEC/email-header-analyzer) |
 | **SIEM Log Alerter** | Monitors logs, fires alerts when threat thresholds exceeded | `Projects/` |
 | **WAF Rule Simulator** | ModSecurity v3 + Nginx + ELK stack home lab — live deployed | [waf-simulator](https://github.com/NivedhithaKS-SEC/waf-simulator) |
