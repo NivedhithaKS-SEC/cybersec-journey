@@ -1,4 +1,4 @@
-# 🛡️ Cybersecurity Journey — Nivedhitha K.S. (Crystal)
+# 🛡️ Cybersecurity Journey — Nivedhitha K.S.
 
 > **3.7 years TCS enterprise IT/SOC operations · Transitioning into dedicated cybersecurity roles**  
 > Targeting: SOC Analyst · GRC/Compliance Analyst · Security Research
