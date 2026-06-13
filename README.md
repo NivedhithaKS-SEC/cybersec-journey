@@ -56,9 +56,10 @@
 | Tool | Description | Deployed |
 |---|---|---|
 | Cloud Security Dashboard | Cloud posture monitoring | [✅ Live on Render](https://cybersecurity-chatbot-1-6nuo.onrender.com) |
-| Cybersecurity Chatbot | NLP-based security Q&A | ✅ Live on Render |
-| Malicious URL Detector | VirusTotal API integration | ✅ Live on Render |
-| Email Header Analyzer | Phishing forensics tool | ✅ Live on Render |
+| Cybersecurity Chatbot | NLP-based security Q&A | [✅ Live on Render](https://cybersecurity-chatbot-1-6nuo.onrender.com) |
+| Malicious URL Detector | VirusTotal API integration | [✅ Live on Render](https://malicious-url-detector-azxn.onrender.com/) |
+| Email Header Analyzer | Phishing forensics tool | [✅ Live on Render](https://email-header-analyzer-4snb.onrender.com) |
+| Phishing-simulation-tool | security awareness training platform | [✅ Live on Render](https://phishing-simulation-tool.onrender.com) |
 
 ---
 
