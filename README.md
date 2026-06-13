@@ -92,11 +92,11 @@
 |---|---|---|
 | 15 | CEH Web App Hacking — XSS on DVWA, PortSwigger labs | ✅ |
 | — | WAF Home Lab — ModSecurity v3 + Nginx + ELK stack | ✅ Beyond plan |
-| — | Email Security Watchdog v3 — full OAuth2 Python tool | ✅ Beyond plan |
-| — | Bugcrowd VDP submissions — McDonald's recon, safeocs.gov P3 | ✅ Beyond plan |
-| — | 6 tools deployed live on Render | ✅ Beyond plan |
+| — | Email Security Watchdog v3 — full OAuth2 Python tool | ✅ 
+| — | Bugcrowd VDP submissions — McDonald's recon, safeocs.gov P3 | ✅ |
+| — | 6 tools deployed live on Render | ✅ |
 | — | CEH v13 exam attempted (78/125 — retake planned) | ✅ Beyond plan |
-| — | IR Playbook — professional 7-page PDF | ✅ Beyond plan |
+| — | IR Playbook — professional 7-page PDF | ✅ |
 | 16–60 | SQL Injection, Password Cracking, HTB machines, AI Security, GRC | 🔄 |
 
 ---
