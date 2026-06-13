@@ -37,9 +37,9 @@
 
 | Artifact | Description | Status |
 |---|---|---|
-| ISO 27001 Gap Analysis | Fictional enterprise — Annex A control mapping | Building |
+| ISO 27001 Gap Analysis | Fictional enterprise — Annex A control mapping |[ISO27001-Annex-A-Gap-Assessment](https://github.com/NivedhithaKS-SEC/cybersec-journey/tree/main/GRC/ISO27001-Annex-A-Gap-Assessment-temp)|
 | Risk Register | 10 enterprise risks with CVSSv3 scoring | Building |
-| NIST CSF Mapping | TCS real-world experience mapped to CSF functions | Building |
+| NIST CSF Mapping | TCS real-world experience mapped to CSF functions | [NIST CSF v2.0 Risk Assessment](https://github.com/NivedhithaKS-SEC/cybersec-journey/tree/main/GRC/NIST-CSF-Risk-Assessment) |
 | Security Policies | Acceptable Use Policy + BYOD policy | Building |
 
 ### Bug Bounty / Offensive
