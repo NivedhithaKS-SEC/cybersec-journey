@@ -48,7 +48,7 @@
 |---|---|---|
 | **Bugcrowd P5 — safeocs.gov** | WAF bypass finding on U.S. government portal — P3 escalated | `BugBounty/safeocs-writeup.md` |
 | **Network Recon Toolkit** | Combined nmap, port scan, banner grab CLI tool | `Projects/` |
-| **Subdomain Enumerator** | Discovered 6 live subdomains on TryHackMe target | `day11-python/` |
+| **Subdomain Enumerator** | Discovered 6 live subdomains on TryHackMe target | [day11-python/](https://github.com/NivedhithaKS-SEC/cybersec-journey/blob/main/Learning-Journey/day11-python/README.md) |
 | **Phishing Simulation Tool** | Python campaign simulation with tracking | [phishing-simulation-tool](https://github.com/NivedhithaKS-SEC/phishing-simulation-tool) |
 
 ### Other Tools
