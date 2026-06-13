@@ -1,0 +1,13 @@
+Risk ID,Description,Likelihood,Impact,Risk Score,Risk Rating,Primary CSF Function(s),Treatment Strategy,Owner,Timeline
+R-02,Phishing-driven credential compromise (T-01) leading to unauthorized access to Patient Records DB (A-01).,5,5,25,Critical,"Identify, Protect, Detect, Respond",Mitigate,IAM Team / SOC,0-3 months
+R-01,"Ransomware deployment on HIS servers (A-02) via T-02, disrupting clinical operations and patient safety.",4,5,20,Critical,"Protect, Detect, Respond, Recover",Mitigate,IT Operations / SOC,0-6 months
+R-05,Cloud misconfiguration in AWS production VPC (A-07) exposes billing data (A-08) (T-03).,4,4,16,Critical,"Identify, Protect, Detect",Mitigate,Cloud Engineering,0-3 months
+R-03,SQL injection / access control flaw in patient portal (T-10) exposes Patient Records DB (A-01) via AWS prod (A-07).,3,5,15,High,"Identify, Protect, Detect",Mitigate,Engineering / Security,0-3 months
+R-06,Supply-chain compromise via HL7 lab integration (A-12) enabling lateral movement (T-06).,3,4,12,High,"Identify, Protect, Detect, Respond",Mitigate,Integration Team / GRC,3-6 months
+R-07,Compromise of legacy diagnostic imaging device (A-06) used as network pivot point (T-07).,3,4,12,High,"Identify, Protect, Detect",Mitigate,Biomedical Eng. / Network Security,3-6 months
+R-08,Credential-stuffing attack against VPN gateway (A-09) results in unauthorized remote access (T-09).,4,3,12,High,"Protect, Detect",Mitigate,Network Security,0-3 months
+R-10,"Accidental data exposure via misdirected email or open file share containing PHI (A-01, A-04) (T-04).",4,3,12,High,"Protect, Detect",Mitigate,IT Operations / GRC,3-6 months
+R-04,Malicious insider exfiltrates patient records (A-01) prior to offboarding (T-05).,2,5,10,High,"Identify, Protect, Detect, Respond",Mitigate,IAM Team / HR,0-6 months
+R-09,"Extended outage of production data center / cloud region affecting A-02, A-07, A-11 (T-08).",2,5,10,High,"Respond, Recover",Mitigate,IT Operations / GRC,3-9 months
+R-12,Wireless eavesdropping or rogue AP on clinical Wi-Fi (A-13) intercepts unencrypted traffic (T-12).,3,3,9,Medium,"Protect, Detect",Mitigate,Network Security,3-9 months
+R-11,"Vendor/contractor with excessive privileged access introduces malware during maintenance (A-02, A-03) (T-11).",2,4,8,Medium,"Identify, Protect, Detect",Mitigate,IAM Team / Vendor Mgmt,3-6 months
