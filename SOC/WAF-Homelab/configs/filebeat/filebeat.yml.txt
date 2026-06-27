@@ -1,0 +1,24 @@
+filebeat.inputs:
+  - type: log
+    enabled: true
+    paths:
+      - /var/log/nginx/dvwa_access.log
+    fields:
+      log_type: nginx_access
+    fields_under_root: true
+
+  - type: log
+    enabled: true
+    paths:
+      - /var/log/modsec_audit.log
+    fields:
+      log_type: modsec_audit
+    fields_under_root: true
+    multiline.pattern: "^--[a-fA-F0-9]{8}-"
+    multiline.negate: true
+    multiline.match: after
+
+output.logstash:
+  hosts: ["localhost:5044"]
+
+logging.level: info

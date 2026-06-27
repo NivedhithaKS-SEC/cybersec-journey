@@ -1,0 +1,31 @@
+input {
+  beats {
+    port => 5044
+  }
+}
+
+filter {
+  if [fields][log_type] == "nginx_access" {
+    grok {
+      match => { "message" => '%{COMBINEDAPACHELOG}' }
+    }
+    date {
+      match => [ "timestamp", "dd/MMM/yyyy:HH:mm:ss Z" ]
+    }
+  }
+
+  if [fields][log_type] == "modsec_audit" {
+    grok {
+      match => { "message" => '\[(?<timestamp>%{GREEDYDATA})\] \[%{WORD:modsec_severity}\] \[%{WORD:modsec_id}\] %{GREEDYDATA:modsec_message}' }
+      overwrite => [ "message" ]
+    }
+  }
+}
+
+output {
+  elasticsearch {
+    hosts => ["http://elasticsearch:9200"]
+    index => "waf-logs-%{+YYYY.MM.dd}"
+  }
+  stdout { codec => rubydebug }
+}
