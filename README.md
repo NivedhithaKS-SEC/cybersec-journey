@@ -1,4 +1,4 @@
-# 🛡️ Cybersecurity Journey — Nivedhitha K.S. (Crystal)
+# 🛡️ Cybersecurity Journey — Nivedhitha K.S.
 
 > **3.7 years TCS enterprise IT/SOC operations · Transitioning into dedicated cybersecurity roles**  
 > Targeting: SOC Analyst · GRC/Compliance Analyst · Security Research
@@ -30,16 +30,16 @@
 |---|---|---|
 | **Incident Response Playbook** | 7-page professional IR playbook — phishing, ransomware, insider threat scenarios with MITRE ATT&CK mapping, IOC extraction, escalation matrix | [📄 View PDF](./SOC/IR_Playbook_NivedhithaKS.pdf) |
 | **Email Security Watchdog v3** | Python Gmail threat detection tool — OAuth2, 15-check phishing detection engine, automated response | [email-header-analyzer](https://github.com/NivedhithaKS-SEC/email-header-analyzer) |
-| **SIEM Log Alerter** | Monitors logs, fires alerts when threat thresholds exceeded | `Projects/` |
+| **SIEM Log Alerter** | Monitors logs, fires alerts when threat thresholds exceeded | [Projects/](https://github.com/NivedhithaKS-SEC/cybersec-journey/tree/main/Projects) |
 | **WAF Rule Simulator** | ModSecurity v3 + Nginx + ELK stack home lab — live deployed | [waf-simulator](https://github.com/NivedhithaKS-SEC/waf-simulator) |
 
 ### GRC / Compliance *(in progress)*
 
 | Artifact | Description | Status |
 |---|---|---|
-| ISO 27001 Gap Analysis | Fictional enterprise — Annex A control mapping | Building |
+| ISO 27001 Gap Analysis | Fictional enterprise — Annex A control mapping |[ISO27001-Annex-A-Gap-Assessment](https://github.com/NivedhithaKS-SEC/cybersec-journey/tree/main/GRC/ISO27001-Annex-A-Gap-Assessment-temp)|
 | Risk Register | 10 enterprise risks with CVSSv3 scoring | Building |
-| NIST CSF Mapping | TCS real-world experience mapped to CSF functions | Building |
+| NIST CSF Mapping |  fictional healthcare organization (Meridian Diagnostics Pvt. Ltd.) mapped to CSF functions | [NIST CSF v2.0 Risk Assessment](https://github.com/NivedhithaKS-SEC/cybersec-journey/tree/main/GRC/NIST-CSF-Risk-Assessment) |
 | Security Policies | Acceptable Use Policy + BYOD policy | Building |
 
 ### Bug Bounty / Offensive
@@ -47,18 +47,19 @@
 | Artifact | Description | Link |
 |---|---|---|
 | **Bugcrowd P5 — safeocs.gov** | WAF bypass finding on U.S. government portal — P3 escalated | `BugBounty/safeocs-writeup.md` |
-| **Network Recon Toolkit** | Combined nmap, port scan, banner grab CLI tool | `Projects/` |
-| **Subdomain Enumerator** | Discovered 6 live subdomains on TryHackMe target | `day11-python/` |
+| **Network Recon Toolkit** | Combined nmap, port scan, banner grab CLI tool | [Projects/](https://github.com/NivedhithaKS-SEC/cybersec-journey/tree/main/Projects) |
+| **Subdomain Enumerator** | Discovered 6 live subdomains on TryHackMe target | [day11-python/](https://github.com/NivedhithaKS-SEC/cybersec-journey/blob/main/Learning-Journey/day11-python/README.md) |
 | **Phishing Simulation Tool** | Python campaign simulation with tracking | [phishing-simulation-tool](https://github.com/NivedhithaKS-SEC/phishing-simulation-tool) |
 
 ### Other Tools
 
 | Tool | Description | Deployed |
 |---|---|---|
-| Cloud Security Dashboard | Cloud posture monitoring | ✅ Live on Render |
-| Cybersecurity Chatbot | NLP-based security Q&A | ✅ Live on Render |
-| Malicious URL Detector | VirusTotal API integration | ✅ Live on Render |
-| Email Header Analyzer | Phishing forensics tool | ✅ Live on Render |
+| Cloud Security Dashboard | Cloud posture monitoring | [✅ Live on Render](https://cybersecurity-chatbot-1-6nuo.onrender.com) |
+| Cybersecurity Chatbot | NLP-based security Q&A | [✅ Live on Render](https://cybersecurity-chatbot-1-6nuo.onrender.com) |
+| Malicious URL Detector | VirusTotal API integration | [✅ Live on Render](https://malicious-url-detector-azxn.onrender.com/) |
+| Email Header Analyzer | Phishing forensics tool | [✅ Live on Render](https://email-header-analyzer-4snb.onrender.com) |
+| Phishing-simulation-tool | security awareness training platform | [✅ Live on Render](https://phishing-simulation-tool.onrender.com) |
 
 ---
 
@@ -91,11 +92,11 @@
 |---|---|---|
 | 15 | CEH Web App Hacking — XSS on DVWA, PortSwigger labs | ✅ |
 | — | WAF Home Lab — ModSecurity v3 + Nginx + ELK stack | ✅ Beyond plan |
-| — | Email Security Watchdog v3 — full OAuth2 Python tool | ✅ Beyond plan |
-| — | Bugcrowd VDP submissions — McDonald's recon, safeocs.gov P3 | ✅ Beyond plan |
-| — | 6 tools deployed live on Render | ✅ Beyond plan |
+| — | Email Security Watchdog v3 — full OAuth2 Python tool | ✅ 
+| — | Bugcrowd VDP submissions — McDonald's recon, safeocs.gov P3 | ✅ |
+| — | 6 tools deployed live on Render | ✅ |
 | — | CEH v13 exam attempted (78/125 — retake planned) | ✅ Beyond plan |
-| — | IR Playbook — professional 7-page PDF | ✅ Beyond plan |
+| — | IR Playbook — professional 7-page PDF | ✅ |
 | 16–60 | SQL Injection, Password Cracking, HTB machines, AI Security, GRC | 🔄 |
 
 ---
